@@ -1,94 +1,13 @@
-<p align="center"><img width="40%" src="the_incredible_pytorch.png" /></p>
-
---------------------------------------------------------------------------------
-<p align="center">
-	<img src="https://img.shields.io/badge/stars-9000+-blue.svg"/>
-	<img src="https://img.shields.io/badge/forks-1800+-blue.svg"/>
-	<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
-</p>
-
-This is a curated list of tutorials, projects, libraries, videos, papers, books and anything related to the incredible [PyTorch](http://pytorch.org/). Feel free to make a pull request to contribute to this list.
-
-
-# Table Of Contents
-<!-- vscode-markdown-toc -->
-- [Tabular Data](#tabular-data)
-- [Tutorials](#tutorials)
-- [Visualization](#visualization)
-- [Explainability](#explainability)
-- [Object Detection](#object-detection)
-- [Long-Tailed / Out-of-Distribution Recognition](#long-tailed--out-of-distribution-recognition)
-- [Activation Functions](#activation-functions)
-- [Energy-Based Learning](#energy-based-learning)
-- [Missing Data](#missing-data)
-- [Architecture Search](#architecture-search)
-- [Continual Learning](#continual-learning)
-- [Optimization](#optimization)
-- [Quantization](#quantization)
-- [Quantum Machine Learning](#quantum-machine-learning)
-- [Neural Network Compression](#neural-network-compression)
-- [Facial, Action and Pose Recognition](#facial-action-and-pose-recognition)
-- [Super resolution](#super-resolution)
-- [Synthetesizing Views](#synthetesizing-views)
-- [Voice](#voice)
-- [Medical](#medical)
-- [3D Segmentation, Classification and Regression](#3d-segmentation-classification-and-regression)
-- [Video Recognition](#video-recognition)
-- [Recurrent Neural Networks (RNNs)](#recurrent-neural-networks-rnns)
-- [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-cnns)
-- [Segmentation](#segmentation)
-- [Geometric Deep Learning: Graph \& Irregular Structures](#geometric-deep-learning-graph--irregular-structures)
-- [Sorting](#sorting)
-- [Ordinary Differential Equations Networks](#ordinary-differential-equations-networks)
-- [Multi-task Learning](#multi-task-learning)
-- [GANs, VAEs, and AEs](#gans-vaes-and-aes)
-- [Unsupervised Learning](#unsupervised-learning)
-- [Adversarial Attacks](#adversarial-attacks)
-- [Style Transfer](#style-transfer)
-- [Image Captioning](#image-captioning)
-- [Transformers](#transformers)
-- [Similarity Networks and Functions](#similarity-networks-and-functions)
-- [Reasoning](#reasoning)
-- [General NLP](#general-nlp)
-- [Question and Answering](#question-and-answering)
-- [Speech Generation and Recognition](#speech-generation-and-recognition)
-- [Document and Text Classification](#document-and-text-classification)
-- [Text Generation](#text-generation)
-- [Text to Image](#text-to-image)
-- [Translation](#translation)
-- [Sentiment Analysis](#sentiment-analysis)
-- [Deep Reinforcement Learning](#deep-reinforcement-learning)
-- [Deep Bayesian Learning and Probabilistic Programmming](#deep-bayesian-learning-and-probabilistic-programmming)
-- [Spiking Neural Networks](#spiking-neural-networks)
-- [Anomaly Detection](#anomaly-detection)
-- [Regression Types](#regression-types)
-- [Time Series](#time-series)
-- [Synthetic Datasets](#synthetic-datasets)
-- [Neural Network General Improvements](#neural-network-general-improvements)
-- [DNN Applications in Chemistry and Physics](#dnn-applications-in-chemistry-and-physics)
-- [New Thinking on General Neural Network Architecture](#new-thinking-on-general-neural-network-architecture)
-- [Linear Algebra](#linear-algebra)
-- [API Abstraction](#api-abstraction)
-- [Low Level Utilities](#low-level-utilities)
-- [PyTorch Utilities](#pytorch-utilities)
-- [PyTorch Video Tutorials](#pytorch-video-tutorials)
-- [Datasets](#datasets)
-- [Community](#community)
-- [Links to This Repository](#links-to-this-repository)
-- [To be Classified](#to-be-classified)
-- [Contributions](#contributions)
-
-<!-- vscode-markdown-toc-config
-	numbering=false
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+# Implementations I've been through + notes
 
 ## <a name='TabularData'></a>Tabular Data
+
 - [PyTorch-TabNet: Attentive Interpretable Tabular Learning](https://github.com/dreamquark-ai/tabnet)
+
 - [carefree-learn: A minimal Automatic Machine Learning (AutoML) solution for tabular datasets based on PyTorch](https://github.com/carefree0910/carefree-learn)
 
 ## <a name='Tutorials'></a>Tutorials
+
 - [Official PyTorch Tutorials](https://github.com/pytorch/tutorials)
 - [Official PyTorch Examples](https://github.com/pytorch/examples)
 - [Dive Into Deep Learning with PyTorch](https://github.com/d2l-ai/d2l-en)
@@ -110,6 +29,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Semantic Search with PyTorch](https://github.com/kuutsav/information-retrieval)
 
 ## <a name='Visualization'></a>Visualization
+
 - [Loss Visualization](https://github.com/tomgoldstein/loss-landscape)
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://github.com/jacobgil/pytorch-grad-cam)
 - [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
@@ -121,6 +41,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [CNN Feature Map Visualisation](https://github.com/lewis-morris/mapextrackt)
 
 ## <a name='Explainability'></a>Explainability
+
 - [Neural-Backed Decision Trees](https://github.com/alvinwan/neural-backed-decision-trees)
 - [Efficient Covariance Estimation from Temporal Data](https://github.com/hrayrhar/T-CorEx)
 - [Hierarchical interpretations for neural network predictions](https://github.com/csinva/hierarchical-dnn-interpretations)
@@ -130,6 +51,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Captum, A unified model interpretability library for PyTorch](https://github.com/pytorch/captum)
 
 ## <a name='ObjectDetection'></a>Object Detection
+
 - [MMDetection Object Detection Toolbox](https://github.com/open-mmlab/mmdetection)
 - [Mask R-CNN Benchmark: Faster R-CNN and Mask R-CNN in PyTorch 1.0](https://github.com/facebookresearch/maskrcnn-benchmark)
 - [YOLOS](https://github.com/hustvl/YOLOS)
@@ -148,6 +70,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Catalyst.Detection](https://github.com/catalyst-team/detection)
 
 ## <a name='Long-TailedOut-of-DistributionRecognition'></a>Long-Tailed / Out-of-Distribution Recognition
+
 - [Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization](https://github.com/kohpangwei/group_DRO)
 - [Invariant Risk Minimization](https://github.com/facebookresearch/InvariantRiskMinimization)
 - [Training Confidence-Calibrated Classifier for Detecting Out-of-Distribution Samples](https://github.com/alinlab/Confident_classifier)
@@ -158,16 +81,20 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [PyTorch Imbalanced Class Sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
 
 ## <a name='ActivationFunctions'></a>Activation Functions
+
 - [Rational Activations - Learnable Rational Activation Functions](https://github.com/ml-research/rational_activations)
 
 ## <a name='Energy-BasedLearning'></a>Energy-Based Learning
+
 - [EBGAN, Energy-Based GANs](https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/ebgan/ebgan.py)
 - [Maximum Entropy Generators for Energy-based Models](https://github.com/ritheshkumar95/energy_based_generative_models)
 
 ## <a name='MissingData'></a>Missing Data
- - [BRITS: Bidirectional Recurrent Imputation for Time Series](http://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series)
+
+- [BRITS: Bidirectional Recurrent Imputation for Time Series](http://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series)
 
 ## <a name='ArchitectureSearch'></a>Architecture Search
+
 - [EfficientNetV2](https://github.com/lukemelas/EfficientNet-PyTorch)
 - [DenseNAS](https://github.com/JaminFong/DenseNAS)
 - [DARTS: Differentiable Architecture Search](https://github.com/quark0/darts)
@@ -175,9 +102,11 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://github.com/zsef123/EfficientNets-PyTorch)
 
 ## <a name='ContinualLearning'></a>Continual Learning
+
 - [Renate, Automatic Retraining of Neural Networks](https://github.com/awslabs/renate)
 
 ## <a name='Optimization'></a>Optimization
+
 - [AccSGD, AdaBound, AdaMod, DiffGrad, Lamb, NovoGrad, RAdam, SGDW, Yogi and more](https://github.com/jettify/pytorch-optimizer)
 - [Lookahead Optimizer: k steps forward, 1 step back](https://github.com/alphadl/lookahead.pytorch)
 - [RAdam, On the Variance of the Adaptive Learning Rate and Beyond](https://github.com/LiyuanLucasLiu/RAdam)
@@ -191,13 +120,16 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [TorchOpt: An Efficient Library for Differentiable Optimization](https://github.com/metaopt/torchopt)
 
 ## <a name='Quantization'></a>Quantization
+
 - [Additive Power-of-Two Quantization: An Efficient Non-uniform Discretization For Neural Networks](https://github.com/yhhhli/APoT_Quantization)
 
 ## <a name='QuantumMachineLearning'></a>Quantum Machine Learning
+
 - [Tor10, generic tensor-network library for quantum simulation in PyTorch](https://github.com/kaihsin/Tor10)
 - [PennyLane, cross-platform Python library for quantum machine learning with PyTorch interface](https://github.com/XanaduAI/pennylane)
 
 ## <a name='NeuralNetworkCompression'></a>Neural Network Compression
+
 - [Bayesian Compression for Deep Learning](https://github.com/KarenUllrich/Tutorial_BayesianCompressionForDL)
 - [Neural Network Distiller by Intel AI Lab: a Python package for neural network compression research](https://github.com/NervanaSystems/distiller)
 - [Learning Sparse Neural Networks through L0 regularization](https://github.com/AMLab-Amsterdam/L0_regularization)
@@ -207,6 +139,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Pruning neural networks: is it time to nip it in the bud? (showing reduced networks work better)](https://github.com/BayesWatch/pytorch-prunes)
 
 ## <a name='FacialActionandPoseRecognition'></a>Facial, Action and Pose Recognition
+
 - [Facenet: Pretrained Pytorch face detection and recognition models](https://github.com/timesler/facenet-pytorch)
 - [DGC-Net: Dense Geometric Correspondence Network](https://github.com/AaltoVision/DGC-Net)
 - [High performance facial recognition library on PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
@@ -226,18 +159,22 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Deep Face Recognition in PyTorch](https://github.com/grib0ed0v/face_recognition.pytorch)
 
 ## <a name='Superresolution'></a>Super resolution
+
 - [Enhanced Deep Residual Networks for Single Image Super-Resolution](https://github.com/thstkdgus35/EDSR-PyTorch)
 - [Superresolution using an efficient sub-pixel convolutional neural network](https://github.com/pytorch/examples/tree/master/super_resolution)
 - [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://github.com/bengxy/FastNeuralStyle)
 
 ## <a name='SynthetesizingViews'></a>Synthetesizing Views
+
 - [NeRF, Neural Radian Fields, Synthesizing Novels Views of Complex Scenes](https://github.com/yenchenlin/nerf-pytorch)
 
 ## <a name='Voice'></a>Voice
+
 - [Google AI VoiceFilter: Targeted Voice Separatation by Speaker-Conditioned Spectrogram Masking](https://github.com/mindslab-ai/voicefilter)
 
 ## <a name='Medical'></a>Medical
-- [Medical Zoo, 3D multi-modal medical image segmentation library in PyTorch]( https://github.com/black0017/MedicalZooPytorch)
+
+- [Medical Zoo, 3D multi-modal medical image segmentation library in PyTorch](https://github.com/black0017/MedicalZooPytorch)
 - [U-Net for FLAIR Abnormality Segmentation in Brain MRI](https://github.com/mateuszbuda/brain-segmentation-pytorch)
 - [Genomic Classification via ULMFiT](https://github.com/kheyer/Genomic-ULMFiT)
 - [Deep Neural Networks Improve Radiologists' Performance in Breast Cancer Screening](https://github.com/nyukat/breast_cancer_classifier)
@@ -247,17 +184,20 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [TorchXRayVision - A library for chest X-ray datasets and models. Including pre-trainined models.](https://github.com/mlmed/torchxrayvision)
 
 ## <a name='DSegmentationClassificationandRegression'></a>3D Segmentation, Classification and Regression
+
 - [Kaolin, Library for Accelerating 3D Deep Learning Research](https://github.com/NVIDIAGameWorks/kaolin)
 - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://github.com/fxia22/pointnet.pytorch)
 - [3D segmentation with MONAI and Catalyst](https://colab.research.google.com/drive/15wJus5WZPYxTYE51yBhIBNhk9Tj4k3BT?usp=sharing)
 
 ## <a name='VideoRecognition'></a>Video Recognition
+
 - [Dancing to Music](https://github.com/NVlabs/Dancing2Music)
 - [Devil Is in the Edges: Learning Semantic Boundaries from Noisy Annotations](https://github.com/nv-tlabs/STEAL)
 - [Deep Video Analytics](https://github.com/AKSHAYUBHAT/DeepVideoAnalytics)
 - [PredRNN: Recurrent Neural Networks for Predictive Learning using Spatiotemporal LSTMs](https://github.com/thuml/predrnn-pytorch)
 
 ## <a name='RecurrentNeuralNetworksRNNs'></a>Recurrent Neural Networks (RNNs)
+
 - [SRU: training RNNs as fast as CNNs](https://github.com/asappresearch/sru)
 - [Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://github.com/yikangshen/Ordered-Neurons)
 - [Averaged Stochastic Gradient Descent with Weight Dropped LSTM](https://github.com/salesforce/awd-lstm-lm)
@@ -269,11 +209,12 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling](https://github.com/DSKSD/RNN-for-Joint-NLU)
 - [Attentive Recurrent Comparators](https://github.com/sanyam5/arc-pytorch)
 - [Collection of Sequence to Sequence Models with PyTorch](https://github.com/MaximumEntropy/Seq2Seq-PyTorch)
-	1. Vanilla Sequence to Sequence models
-	2. Attention based Sequence to Sequence models
-	3. Faster attention mechanisms using dot products between the final encoder and decoder hidden states
+  1.  Vanilla Sequence to Sequence models
+  2.  Attention based Sequence to Sequence models
+  3.  Faster attention mechanisms using dot products between the final encoder and decoder hidden states
 
 ## <a name='ConvolutionalNeuralNetworksCNNs'></a>Convolutional Neural Networks (CNNs)
+
 - [LegoNet: Efficient Convolutional Neural Networks with Lego Filters](https://github.com/huawei-noah/LegoNet)
 - [MeshCNN, a convolutional neural network designed specifically for triangular meshes](https://github.com/ranahanocka/MeshCNN)
 - [Octave Convolution](https://github.com/d-li14/octconv.pytorch)
@@ -282,10 +223,9 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Invertible Residual Networks](https://github.com/jarrelscy/iResnet)
 - [Stochastic Downsampling for Cost-Adjustable Inference and Improved Regularization in Convolutional Networks ](https://github.com/xternalz/SDPoint)
 - [Faster Faster R-CNN Implementation](https://github.com/jwyang/faster-rcnn.pytorch)
-	- [Faster R-CNN Another Implementation](https://github.com/longcw/faster_rcnn_pytorch)
+  - [Faster R-CNN Another Implementation](https://github.com/longcw/faster_rcnn_pytorch)
 - [Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer](https://github.com/szagoruyko/attention-transfer)
-- [Wide ResNet model in PyTorch](https://github.com/szagoruyko/functional-zoo)
-	-[DiracNets: Training Very Deep Neural Networks Without Skip-Connections](https://github.com/szagoruyko/diracnets)
+- [Wide ResNet model in PyTorch](https://github.com/szagoruyko/functional-zoo) -[DiracNets: Training Very Deep Neural Networks Without Skip-Connections](https://github.com/szagoruyko/diracnets)
 - [An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition](https://github.com/bgshih/crnn)
 - [Efficient Densenet](https://github.com/gpleiss/efficient_densenet_pytorch)
 - [Video Frame Interpolation via Adaptive Separable Convolution](https://github.com/sniklaus/pytorch-sepconv)
@@ -308,6 +248,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [NVIDIA/unsupervised-video-interpolation](https://github.com/NVIDIA/unsupervised-video-interpolation)
 
 ## <a name='Segmentation'></a>Segmentation
+
 - [Detectron2 by FAIR](https://github.com/facebookresearch/detectron2)
 - [Pixel-wise Segmentation on VOC2012 Dataset using PyTorch](https://github.com/bodokaiser/piwise)
 - [Pywick - High-level batteries-included neural network training library for Pytorch](https://github.com/achaiah/pywick)
@@ -317,6 +258,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Segmentation models with pretrained backbones](https://github.com/qubvel/segmentation_models.pytorch)
 
 ## <a name='GeometricDeepLearning:GraphIrregularStructures'></a>Geometric Deep Learning: Graph & Irregular Structures
+
 - [PyTorch Geometric, Deep Learning Extension](https://github.com/rusty1s/pytorch_geometric)
 - [PyTorch Geometric Temporal: A Temporal Extension Library for PyTorch Geometric](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
 - [PyTorch Geometric Signed Directed: A Signed & Directed Extension Library for PyTorch Geometric](https://github.com/SherylHYX/pytorch_geometric_signed_directed)
@@ -348,17 +290,21 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [MagNet: A Neural Network for Directed Graphs](https://github.com/matthew-hirn/magnet)
 
 ## <a name='Sorting'></a>Sorting
+
 - [Stochastic Optimization of Sorting Networks via Continuous Relaxations](https://github.com/ermongroup/neuralsort)
 
 ## <a name='OrdinaryDifferentialEquationsNetworks'></a>Ordinary Differential Equations Networks
+
 - [Latent ODEs for Irregularly-Sampled Time Series](https://github.com/YuliaRubanova/latent_ode)
 - [GRU-ODE-Bayes: continuous modelling of sporadically-observed time series](https://github.com/edebrouwer/gru_ode_bayes)
 
 ## <a name='Multi-taskLearning'></a>Multi-task Learning
+
 - [Hierarchical Multi-Task Learning Model](https://github.com/huggingface/hmtl)
 - [Task-based End-to-end Model Learning](https://github.com/locuslab/e2e-model-learning)
 
 ## <a name='GANsVAEsandAEs'></a>GANs, VAEs, and AEs
+
 - [BigGAN: Large Scale GAN Training for High Fidelity Natural Image Synthesis](https://github.com/ajbrock/BigGAN-PyTorch)
 - [High Fidelity Performance Metrics for Generative Models in PyTorch](https://github.com/toshas/torch-fidelity)
 - [Mimicry, PyTorch Library for Reproducibility of GAN Research](https://github.com/kwotsin/mimicry)
@@ -380,18 +326,18 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [On the Effects of Batch and Weight Normalization in Generative Adversarial Networks](https://github.com/stormraiser/GAN-weight-norm)
 - [Improved Training of Wasserstein GANs](https://github.com/jalola/improved-wgan-pytorch)
 - [Collection of Generative Models with PyTorch](https://github.com/wiseodd/generative-models)
-	- Generative Adversarial Nets (GAN)
-		1. [Vanilla GAN](https://arxiv.org/abs/1406.2661)
-		2. [Conditional GAN](https://arxiv.org/abs/1411.1784)
-		3. [InfoGAN](https://arxiv.org/abs/1606.03657)
-		4. [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
-		5. [Mode Regularized GAN](https://arxiv.org/abs/1612.02136)
-	- Variational Autoencoder (VAE)
-		1. [Vanilla VAE](https://arxiv.org/abs/1312.6114)
-		2. [Conditional VAE](https://arxiv.org/abs/1406.5298)
-		3. [Denoising VAE](https://arxiv.org/abs/1511.06406)
-		4. [Adversarial Autoencoder](https://arxiv.org/abs/1511.05644)
-		5. [Adversarial Variational Bayes](https://arxiv.org/abs/1701.04722)
+  - Generative Adversarial Nets (GAN)
+    1. [Vanilla GAN](https://arxiv.org/abs/1406.2661)
+    2. [Conditional GAN](https://arxiv.org/abs/1411.1784)
+    3. [InfoGAN](https://arxiv.org/abs/1606.03657)
+    4. [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+    5. [Mode Regularized GAN](https://arxiv.org/abs/1612.02136)
+  - Variational Autoencoder (VAE)
+    1. [Vanilla VAE](https://arxiv.org/abs/1312.6114)
+    2. [Conditional VAE](https://arxiv.org/abs/1406.5298)
+    3. [Denoising VAE](https://arxiv.org/abs/1511.06406)
+    4. [Adversarial Autoencoder](https://arxiv.org/abs/1511.05644)
+    5. [Adversarial Variational Bayes](https://arxiv.org/abs/1701.04722)
 - [Improved Training of Wasserstein GANs](https://github.com/caogang/wgan-gp)
 - [CycleGAN and Semi-Supervised GAN](https://github.com/yunjey/mnist-svhn-transfer)
 - [Improving Variational Auto-Encoders using Householder Flow and using convex combination linear Inverse Autoregressive Flow](https://github.com/jmtomczak/vae_vpflows)
@@ -402,21 +348,24 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [torchgan: Framework for modelling Generative Adversarial Networks in Pytorch](https://github.com/torchgan/torchgan)
 - [Evaluating Lossy Compression Rates of Deep Generative Models](https://github.com/huangsicong/rate_distortion)
 - [Catalyst.GAN](https://github.com/catalyst-team/gan)
-    1. [Vanilla GAN](https://arxiv.org/abs/1406.2661)
-    2. [Conditional GAN](https://arxiv.org/abs/1411.1784)
-    3. [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
-    4. [Improved Training of Wasserstein GANs](https://arxiv.org/abs/1704.00028)
+  1. [Vanilla GAN](https://arxiv.org/abs/1406.2661)
+  2. [Conditional GAN](https://arxiv.org/abs/1411.1784)
+  3. [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+  4. [Improved Training of Wasserstein GANs](https://arxiv.org/abs/1704.00028)
 
 ## <a name='UnsupervisedLearning'></a>Unsupervised Learning
+
 - [Unsupervised Embedding Learning via Invariant and Spreading Instance Feature](https://github.com/mangye16/Unsupervised_Embedding_Learning)
 - [AND: Anchor Neighbourhood Discovery](https://github.com/Raymond-sci/AND)
 
 ## <a name='AdversarialAttacks'></a>Adversarial Attacks
+
 - [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images](https://github.com/utkuozbulak/pytorch-cnn-adversarial-attacks)
 - [Explaining and Harnessing Adversarial Examples](https://github.com/utkuozbulak/pytorch-cnn-adversarial-attacks)
 - [AdverTorch - A Toolbox for Adversarial Robustness Research](https://github.com/BorealisAI/advertorch)
 
 ## <a name='StyleTransfer'></a>Style Transfer
+
 - [Pystiche: Framework for Neural Style Transfer](https://github.com/pystiche/pystiche)
 - [Detecting Adversarial Examples via Neural Fingerprinting](https://github.com/StephanZheng/neural-fingerprinting)
 - [A Neural Algorithm of Artistic Style](https://github.com/alexis-jacq/Pytorch-Tutorials)
@@ -427,22 +376,27 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Draw like Bob Ross](https://github.com/kendricktan/drawlikebobross)
 
 ## <a name='ImageCaptioning'></a>Image Captioning
+
 - [CLIP (Contrastive Language-Image Pre-Training)](https://github.com/openai/CLIP)
 - [Neuraltalk 2, Image Captioning Model, in PyTorch](https://github.com/ruotianluo/neuraltalk2.pytorch)
 - [Generate captions from an image with PyTorch](https://github.com/eladhoffer/captionGen)
 - [DenseCap: Fully Convolutional Localization Networks for Dense Captioning](https://github.com/jcjohnson/densecap)
 
 ## <a name='Transformers'></a>Transformers
+
 - [Attention is all you need](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 - [Spatial Transformer Networks](https://github.com/fxia22/stn.pytorch)
 
 ## <a name='SimilarityNetworksandFunctions'></a>Similarity Networks and Functions
+
 - [Conditional Similarity Networks](https://github.com/andreasveit/conditional-similarity-networks)
 
 ## <a name='Reasoning'></a>Reasoning
+
 - [Inferring and Executing Programs for Visual Reasoning](https://github.com/facebookresearch/clevr-iep)
 
 ## <a name='GeneralNLP'></a>General NLP
+
 - [nanoGPT, fastest repository for training/finetuning medium-sized GPTs](https://github.com/karpathy/nanoGPT)
 - [minGPT, Re-implementation of GPT to be small, clean, interpretable and educational](https://github.com/karpathy/minGPT)
 - [Espresso, Module Neural Automatic Speech Recognition Toolkit](https://github.com/freewym/espresso)
@@ -461,6 +415,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [TorchMoji: PyTorch Implementation of DeepMoji to under Language used to Express Emotions](https://github.com/huggingface/torchMoji)
 
 ## <a name='QuestionandAnswering'></a>Question and Answering
+
 - [Visual Question Answering in Pytorch](https://github.com/Cadene/vqa.pytorch)
 - [Reading Wikipedia to Answer Open-Domain Questions](https://github.com/facebookresearch/DrQA)
 - [Deal or No Deal? End-to-End Learning for Negotiation Dialogues](https://github.com/facebookresearch/end-to-end-negotiator)
@@ -468,6 +423,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Open Source Chatbot with PyTorch](https://github.com/jinfagang/pytorch_chatbot)
 
 ## <a name='SpeechGenerationandRecognition'></a>Speech Generation and Recognition
+
 - [PyTorch-Kaldi Speech Recognition Toolkit](https://github.com/mravanelli/pytorch-kaldi)
 - [WaveGlow: A Flow-based Generative Network for Speech Synthesis](https://github.com/NVIDIA/waveglow)
 - [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
@@ -475,27 +431,33 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [WeNet: Production First and Production Ready End-to-End Speech Recognition Toolkit](https://github.com/mobvoi/wenet)
 
 ## <a name='DocumentandTextClassification'></a>Document and Text Classification
+
 - [Hierarchical Attention Network for Document Classification](https://github.com/cedias/HAN-pytorch)
 - [Hierarchical Attention Networks for Document Classification](https://github.com/EdGENetworks/attention-networks-for-classification)
 - [CNN Based Text Classification](https://github.com/xiayandi/Pytorch_text_classification)
 
 ## <a name='TextGeneration'></a>Text Generation
+
 - [Pytorch Poetry Generation](https://github.com/jhave/pytorch-poetry-generation)
 
 ## <a name='TexttoImage'></a>Text to Image
+
 - [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
 - [Dall-E 2](https://github.com/lucidrains/DALLE2-pytorch)
 - [Dall-E](https://github.com/lucidrains/DALLE-pytorch)
 
 ## <a name='Translation'></a>Translation
+
 - [Open-source (MIT) Neural Machine Translation (NMT) System](https://github.com/OpenNMT/OpenNMT-py)
 
 ## <a name='SentimentAnalysis'></a>Sentiment Analysis
+
 - [Recurrent Neural Networks for Sentiment Analysis (Aspect-Based) on SemEval 2014](https://github.com/vanzytay/pytorch_sentiment_rnn)
 - [Seq2Seq Intent Parsing](https://github.com/spro/pytorch-seq2seq-intent-parsing)
 - [Finetuning BERT for Sentiment Analysis](https://github.com/barissayil/SentimentAnalysis)
 
 ## <a name='DeepReinforcementLearning'></a>Deep Reinforcement Learning
+
 - [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://github.com/denisyarats/drq)
 - [Exploration by Random Network Distillation](https://github.com/openai/random-network-distillation)
 - [EGG: Emergence of lanGuage in Games, quickly implement multi-agent games with discrete channel communication](https://github.com/facebookresearch/EGG)
@@ -518,6 +480,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Catalyst.RL](https://github.com/catalyst-team/catalyst-rl)
 
 ## <a name='DeepBayesianLearningandProbabilisticProgrammming'></a>Deep Bayesian Learning and Probabilistic Programmming
+
 - [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning](https://github.com/BlackHC/BatchBALD)
 - [Subspace Inference for Bayesian Deep Learning](https://github.com/wjmaddox/drbayes)
 - [Bayesian Deep Learning with Variational Inference Package](https://github.com/ctallec/pyvarinf)
@@ -525,15 +488,19 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Bayesian CNN with Variational Inferece in PyTorch](https://github.com/kumar-shridhar/PyTorch-BayesianCNN)
 
 ## <a name='SpikingNeuralNetworks'></a>Spiking Neural Networks
+
 - [Norse, Library for Deep Learning with Spiking Neural Networks](https://github.com/norse/norse)
 
 ## <a name='AnomalyDetection'></a>Anomaly Detection
+
 - [Detection of Accounting Anomalies using Deep Autoencoder Neural Networks](https://github.com/GitiHubi/deepAI)
 
 ## <a name='RegressionTypes'></a>Regression Types
+
 - [Quantile Regression DQN](https://github.com/ars-ashuha/quantile-regression-dqn-pytorch)
 
 ## <a name='TimeSeries'></a>Time Series
+
 - [Dual Self-Attention Network for Multivariate Time Series Forecasting](https://github.com/bighuang624/DSANet)
 - [DILATE: DIstortion Loss with shApe and tImE](https://github.com/vincent-leguen/DILATE)
 - [Variational Recurrent Autoencoder for Timeseries Clustering](https://github.com/tejaslodaya/timeseries-clustering-vae)
@@ -541,9 +508,11 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Flow Forecast: A deep learning for time series forecasting framework built in PyTorch](https://github.com/AIStream-Peelout/flow-forecast)
 
 ## <a name='SyntheticDatasets'></a>Synthetic Datasets
+
 - [Meta-Sim: Learning to Generate Synthetic Datasets](https://github.com/nv-tlabs/meta-sim)
 
 ## <a name='NeuralNetworkGeneralImprovements'></a>Neural Network General Improvements
+
 - [In-Place Activated BatchNorm for Memory-Optimized Training of DNNs](https://github.com/mapillary/inplace_abn)
 - [Train longer, generalize better: closing the generalization gap in large batch training of neural networks](https://github.com/eladhoffer/bigBatch)
 - [FreezeOut: Accelerate Training by Progressively Freezing Layers](https://github.com/ajbrock/FreezeOut)
@@ -552,6 +521,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Mixed Precision Training in PyTorch](https://github.com/suvojit-0x55aa/mixed-precision-pytorch)
 
 ## <a name='DNNApplicationsinChemistryandPhysics'></a>DNN Applications in Chemistry and Physics
+
 - [Wave Physics as an Analog Recurrent Neural Network](https://github.com/fancompute/wavetorch)
 - [Neural Message Passing for Quantum Chemistry](https://github.com/priba/nmp_qc)
 - [Automatic chemical design using a data-driven continuous representation of molecules](https://github.com/cxhernandez/molencoder)
@@ -559,20 +529,25 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Differentiable Molecular Simulation for Learning and Control](https://github.com/wwang2/torchmd)
 
 ## <a name='NewThinkingonGeneralNeuralNetworkArchitecture'></a>New Thinking on General Neural Network Architecture
+
 - [Complement Objective Training](https://github.com/henry8527/COT)
 - [Decoupled Neural Interfaces using Synthetic Gradients](https://github.com/andrewliao11/dni.pytorch)
 
 ## <a name='LinearAlgebra'></a>Linear Algebra
+
 - [Eigenvectors from Eigenvalues](https://github.com/ritchieng/eigenvectors-from-eigenvalues)
 
 ## <a name='APIAbstraction'></a>API Abstraction
+
 - [Torch Layers, Shape inference for PyTorch, SOTA Layers](https://github.com/szymonmaszke/torchlayers)
 - [Hummingbird, run trained scikit-learn models on GPU with PyTorch](https://github.com/microsoft/hummingbird)
 
 ## <a name='LowLevelUtilities'></a>Low Level Utilities
+
 - [TorchSharp, .NET API with access to underlying library powering PyTorch](https://github.com/interesaaat/TorchSharp)
 
 ## <a name='PyTorchUtilities'></a>PyTorch Utilities
+
 - [Functorch: prototype of JAX-like composable Function transformers for PyTorch](https://github.com/zou3519/functorch)
 - [Poutyne: Simplified Framework for Training Neural Networks](https://github.com/GRAAL-Research/poutyne)
 - [PyTorch Metric Learning](https://github.com/KevinMusgrave/pytorch-metric-learning)
@@ -613,25 +588,30 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [torchensemble: Scikit-Learn like ensemble methods in PyTorch](https://github.com/AaronX121/Ensemble-Pytorch)
 
 ## <a name='PyTorchVideoTutorials'></a>PyTorch Video Tutorials
+
 - [PyTorch Zero to All Lectures](http://bit.ly/PyTorchVideo)
 - [PyTorch For Deep Learning Full Course](https://www.youtube.com/watch?v=GIsg-ZUy0MY)
 - [PyTorch Lightning 101 with Alfredo Canziani and William Falcon](https://www.you
-tube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2)
+  tube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2)
 - [Practical Deep Learning with PyTorch](https://www.udemy.com/practical-deep-learning-with-pytorch)
 
 ## <a name='Datasets'></a>Datasets
+
 - [Worldbank Data](https://github.com/mwouts/world_bank_data)
 
 ## <a name='Community'></a>Community
+
 - [PyTorch Discussion Forum](https://discuss.pytorch.org/)
 - [StackOverflow PyTorch Tags](http://stackoverflow.com/questions/tagged/pytorch)
 - [Catalyst.Slack](https://join.slack.com/t/catalyst-team-core/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)
 
 ## <a name='LinkstoThisRepository'></a>Links to This Repository
+
 - [Github Repository](https://github.com/ritchieng/the-incredible-pytorch)
 - [Website](https://www.ritchieng.com/the-incredible-pytorch/)
 
 ## <a name='TobeClassified'></a>To be Classified
+
 - [Perturbative Neural Networks](https://github.com/michaelklachko/pnn.pytorch)
 - [Accurate Neural Network Potential](https://github.com/aiqm/torchani)
 - [Scaling the Scattering Transform: Deep Hybrid Networks](https://github.com/edouardoyallon/pyscatwave)
@@ -651,8 +631,3 @@ tube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2)
 - [NIMA: Neural Image Assessment](https://github.com/truskovskiyk/nima.pytorch)
 - [NASNet-A-Mobile. Ported weights](https://github.com/veronikayurchuk/pretrained-models.pytorch)
 - [Graphics code generating model using Processing](https://github.com/jtoy/sketchnet)
-
-## <a name='Contributions'></a>Contributions
-Do feel free to contribute!
-
-You can raise an issue or submit a pull request, whichever is more convenient for you. The guideline is simple: just follow the format of the previous bullet point or create a new section if it's a new category.
